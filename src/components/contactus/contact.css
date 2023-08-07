@@ -1,0 +1,79 @@
+/* Container for the Contact Us component */
+.first {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 5%;
+  }
+  
+  /* Heading */
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Form input container */
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  /* Form input label */
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  /* Form input fields */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Submit button */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Social Media Links */
+  p {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  li {
+    margin: 0 5px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Font Awesome icons styles (Assuming you are using Font Awesome icons) */
+  i.fa {
+    font-size: 20px;
+  }
+  
